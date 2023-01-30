@@ -1,3 +1,5 @@
+<title>Login</title>
+<link rel="shortcut icon" href="images/favicon.png" type="">
 <x-guest-layout>
     <x-jet-authentication-card>
         <x-slot name="logo">

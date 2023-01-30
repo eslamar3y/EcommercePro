@@ -122,7 +122,7 @@
                       <th>Delivery Status</th>
                       <th>Image</th>
                       <th>Delivered</th>
-                      <th>Print</th>
+                      {{-- <th>Print</th> --}}
                       <th>Send e-mail</th>
                       {{-- <th> Actions</th> --}}
                     </thead>
@@ -146,7 +146,7 @@
                             @elseif ($item->delivery_status == 'Delivered')
                             <td><a onclick="return confirm('Are {{$item->product_title}} Delivered?')" href="{{url('delivered', $item->id)}}" class="btn badge-outline-success disabled">Done</a></td>
                             @endif
-                            <td><a href="{{url('print_pdf', $item->id)}}" class="btn btn-light">PDF</a></td>
+                            {{-- <td><a href="{{url('print_pdf', $item->id)}}" class="btn btn-light">PDF</a></td> --}}
                             <td><a href="{{url('send_email', $item->id)}}" class="btn btn-light">Send</a></td>
                         </tr>
                         @empty

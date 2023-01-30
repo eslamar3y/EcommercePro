@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+    <base href="\public">
   <head>
     <style>
         .div_center{

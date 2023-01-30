@@ -40,7 +40,7 @@
                     <a class="nav-link" href="{{url('show_order')}}">Order [{{$numberOfOrders}}]</a>
                  </li>
                  <li class="nav-item ">
-                    <a class="nav-link" href="{{url('show_cart')}}">Order [{{$numberOfcarts}}]</a>
+                    <a class="nav-link" href="{{url('show_cart')}}">Cart [{{$numberOfcarts}}]</a>
                  </li>
                  @if (Route::has('login'))
                  @auth
